@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "llmstxtgen"
+version = "0.8.0"
+description = "Modular llms.txt generator for WordPress, Shopify, and generic XML sitemaps."
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{ name = "Antonio Blago", email = "info@antonioblago.com" }]
+license = { text = "MIT" }
+dependencies = [
+    "advertools>=0.16",
+    "beautifulsoup4>=4.12",
+    "lxml>=4.9",
+    "pandas>=2.0",
+    "requests>=2.31",
+]
+
+[project.scripts]
+llmstxtgen = "llmstxtgen.cli:main"
+
+[project.urls]
+Homepage = "https://antonioblago.de"
+
+[tool.setuptools]
+packages = ["llmstxtgen", "llmstxtgen.platforms"]

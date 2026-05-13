@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.Python
+build/
+dist/
+
+# Virtual envs
+env_llmstxtgen/
+.venv/
+venv/
+
+# IDE
+.idea/
+.vscode/
+
+# Skillmind local state
+.skillmind/
+
+# Claude Code local state
+.claude/
+
+# Test / smoke outputs (regenerated on demand)
+smoke_*.txt
+out_*.txt
+*_llms.txt
+
+# Misc local artefacts
+Links zu Collections, Blogs und Produkte.txt
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets — never commit
+.env
+.env.*
+*.pem
+*.key
