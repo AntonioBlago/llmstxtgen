@@ -1,6 +1,6 @@
-# llmstxtgen
+# Shopify and Wordpress LLMs.txt Generator 
 
-Modular `llms.txt` generator from XML sitemaps. Supports **WordPress**, **Shopify** (locale-aware), and a **generic** fallback. UTF-8 by default.
+Modular `llms.txt` and free generator from XML sitemaps. Supports **WordPress**, **Shopify** (locale-aware), and a **generic** fallback. UTF-8 by default.
 
 ## Install
 
